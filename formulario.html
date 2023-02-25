@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <!-- Compiled and minified CSS -->
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link  rel="icon" href="img/loggo.png" type="image/png">
+    <link rel="stylesheet" href="css/formulario.css">
+
+</head>
+<body>
+  <!--FORMULARIOS-->
+          <div class="row card-panel">
+        <form class="col s12 m12 l12 validate" aria-required="true">
+            <div class="section white-text">
+               <center><b><h4 class="white-text">¡Completa este formulario para adoptar exitosamente a un peludito!</h4></b></center>
+<br><br>
+    <div class="input-field col s6 m6 l6">
+      <i class="material-icons prefix">account_circle</i>
+        <input id="icon_prefix" type="text" class="validate" required>
+          <label class="white-text">Nombres:</label>
+    </div>
+    <div class="input-field col s6 m6 l6">
+        <input id="icon_prefix" type="text" class="validate" required>
+          <label class="white-text">Apellidos:</label>
+    </div>
+    <div class="row card-panel">
+      <div class="input-field col s6 m6 l6">
+        <i class="material-icons prefix">date_range</i>
+        <input type="text" class="datepicker validate" required>
+        <label class="white-text">Fecha de hoy:</label>
+      </div>
+      <div class="input-field col s6">
+          <i class="material-icons prefix">public</i>
+          <select>
+            <option value="" disabled selected></option>
+            <option value="1">Amazonas</option>
+            <option value="2">Antioquia</option>
+            <option value="3">Arauca</option>
+            <option value="4">Atlántico</option>
+            <option value="5">Bolívar</option>
+            <option value="6">Boyacá</option>
+            <option value="7">Caldas</option>
+            <option value="8">Caquetá</option>
+            <option value="9">Casanare</option>
+            <option value="10">Cauca</option>
+            <option value="11">Cesar</option>
+            <option value="12">Chocó</option>
+            <option value="13">Córdoba</option>
+            <option value="14">Cundinamarca</option>
+            <option value="15">Guainía</option>
+            <option value="16">Guaviare</option>
+            <option value="17">Huila</option>
+            <option value="18">La Guajira</option>
+            <option value="19">Magdalena </option>
+            <option value="20">Meta </option>
+            <option value="21">Nariño </option>
+            <option value="22">Norte de Santander </option>
+            <option value="23">Putumayo </option>
+            <option value="24">Quindío </option>
+            <option value="25">Risaralda </option>
+            <option value="26">San Andrés y Providencia </option>
+            <option value="27">Santander </option>
+            <option value="28">Sucre </option>
+            <option value="29">Tolima </option>
+            <option value="30">Valle  </option>
+            <option value="31">Vaupés </option>
+            <option value="32">Vichada </option>
+        </select>
+          <label class="white-text">¿Cuál es tu departamento?</label>
+        </div>
+
+        <div class="input-field col s12">
+            <i class="material-icons prefix">textsms</i>
+            <input type="text" id="" class="validate" required>
+            <label class="white-text">Dirección:</label>
+          </div>
+
+            <div class="input-field col s12 m12 l12">
+                <i class="material-icons prefix">mail</i>
+                <input id="email" type="email" class="validate" required>
+                <label for="email" class="white-text">E-mail</label>
+                <span class="helper-text white-text" data-error="wrong" data-success="right">Ejemplo@?mail.com</span>
+            </div>
+
+            <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate" required>
+                <label for="icon_telephone" class="white-text">Teléfono</label>
+              </div>
+              <div class="input-field col s6">
+                  <i class="material-icons prefix">phone_android</i>
+                  <input id="icon_telephone" type="tel" class="validate" required>
+                  <label for="" class="white-text">Teléfono celular</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate" required>
+                    <label class="white-text">Nombre de referencia personal </label>
+                  </div>
+                  <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate" required>
+                      <label for="icon_telephone" class="white-text">Teléfono de referencia personal</label>
+                    </div>
+
+
+
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">textsms</i>
+                        <input type="text" id="" class="">
+                        <label for="" class="white-text">¿Por qué deseas adoptar una mascota?</label>
+                      </div>
+                       <div class="input-field col s6">
+                          <i class="material-icons prefix">pts</i>
+                         <b><p class="white-text">¿Actualmente tienes otros animalitos?</p> </b> <br>
+                        <p>  
+                              <label>
+                                <input type="checkbox" />
+                                <span class="white-text">Si</span>
+                              </label>
+                            </p>
+                            <p>
+                                <label>
+                                  <input type="checkbox" />
+                                  <span class="white-text">No</span>
+                                </label>
+                              </p>
+                      </div>
+                       <div class="input-field col s6 m6 l6">
+                          <i class="material-icons prefix">textsms</i>
+                          <input type="text" id="" class="validate" required>
+                          <label for="" class="white-text">¿Cuáles? ¿Estan esterilizados?</label>
+                        </div>
+                     
+
+
+
+                        <div class="input-field col s6 m6 l6">
+                            <i class="material-icons prefix">textsms</i>
+                            <input type="text" id="" class="validate" required>
+                            <label for="" class="white-text">¿Por qué?</label>
+                          </div>
+
+                          <div class="input-field col s6">
+                              <b><p class="white-text">¿Anteriormente ha tenido otros animalitos?</p> </b> <br>
+                              <p>  
+                                    <label>
+                                      <input type="checkbox" />
+                                      <span class="white-text">Si</span>
+                                    </label>
+                                  </p>
+                                  <p>
+                                      <label>
+                                        <input type="checkbox" />
+                                        <span class="white-text">No</span>
+                                      </label>
+                                    </p>
+                            </div>
+                            <div class="input-field col s6 m6 l6">
+                                <i class="material-icons prefix">textsms</i>
+                                <input type="text" id="" class="validate" required
+                                >
+                                <label for="" class="white-text">¿Cuáles? ¿Qué pasó con él/ellos?</label>
+                              </div>
+ 
+                              <div class="input-field col s12 m12 l12">
+                                  <b><p class="white-text">¿Está de acuerdo en que se haga una visita periódica a su domicilio para ver como se encuentra el animalito adoptado?</p> </b> <br>
+                                  <p>  
+                                        <label>
+                                          <input type="checkbox"/>
+                                          <span class="white-text">Si</span>
+                                        </label>
+                                      </p>
+                                      <p>
+                                          <label>
+                                            <input type="checkbox" />
+                                            <span class="white-text">No</span>
+                                          </label>
+                                        </p>
+                                </div>
+                              
+                              <div class="input-field col s12 m12 l12">
+                                  <i class="material-icons prefix">textsms</i>
+                                  <input type="text" id="" class="validate" required>
+                                  <label for="" class="white-text">¿Por qué?</label>
+                                </div>
+
+
+
+                              <div class="input-field col s6 m6 l6">
+                                  <i class="material-icons prefix">textsms</i>
+                                  <input type="text" id="" class="validate" required>
+                                  <label for="" class="white-text">¿Cuántas personas viven en su casa?</label>
+                                </div>
+                                <div class="input-field col s6 m6 l6">
+                                    <i class="material-icons prefix">textsms</i>
+                                    <input type="text" id="" class="validate" required>
+                                    <label for="" class="white-text">¿Hay niños en casa?</label>
+                                    </div>
+
+                                  <div class="input-field col s12 m12 l12">
+                                      <b><p class="white-text">¿Están todos de acuerdo en adoptar?</p> </b> <br>
+                                      <p>  
+                                            <label>
+                                              <input class="green" type="checkbox"/>
+                                              <span class="white-text">Si</span>
+                                            </label>
+                                          </p>
+                                          <p>
+                                              <label>
+                                                <input style="color: red;" type="checkbox"/>
+                                                <span class="white-text">No</span>
+                                              </label>
+                                            </p>
+                                    </div>
+                                    <div class="input-field col s12 m12 l12">
+                                        <i class="material-icons prefix">textsms</i>
+                                        <input type="text" id="" class="validate" required>
+                                        <label for="" class="white-text">Si por algún motivo tuviera que cambiar de domicilio, ¿Qué pasaría con el animalito?</label>
+                                      </div>
+                                      <div class="input-field col s12 m12 l12">
+                                          <i class="material-icons prefix">textsms</i>
+                                          <input type="text" id="" class="validate" required>
+                                          <label for="" class="white-text">En caso de una ruptura en la familia o de la llegada de un nuevo integrante humano ¿Cuáles serían los cambios en el trato hacia el animalito adoptado?</label>
+                                        </div>
+  
+                                        <div class="input-field col s12 m12 l12">
+                                            <i class="material-icons prefix">textsms</i>
+                                            <input type="text" id="" class="validate" required>
+                                            <label for="" class="white-text">¿Cuántos años cree que vive un perro en promedio?</label>
+                                          </div>
+                                          <div class="input-field col s12 m12 l12">
+                                              <i class="material-icons prefix">textsms</i>
+                                              <input type="text" id="" class="validate" required>
+                                              <label for="" class="white-text">¿Cómo se ve con su adoptado dentro de 5 años?</label>
+                                            </div>
+                                            <div class="input-field col s12 m12 l12">
+                                                <b><p class="white-text">¿Tiene espacio suficiente para que el animalito se sienta cómodo?</p> </b> <br>
+                                                <p>  
+                                                      <label>
+                                                        <input type="checkbox" />
+                                                        <span class="white-text">Si</span>
+                                                      </label>
+                                                    </p>
+                                                    <p>
+                                                        <label>
+                                                          <input type="checkbox"/>
+                                                          <span class="white-text">No</span>
+                                                        </label>
+                                                      </p>
+                                              </div>  
+                                              <div class="input-field col s6 m6 l6">
+                                                  <i class="material-icons prefix">textsms</i>
+                                                  <input type="text" id="" class="validate" required>
+                                                  <label for="" class="white-text">¿Dónde dormirá el animalito adoptado?</label>
+                                                </div>
+                                                <div class="input-field col s6 m6 l6">
+                                                    <i class="material-icons prefix">textsms</i>
+                                                    <input type="text" id="" class="validate" required>
+                                                    <label for="" class="white-text">¿Cuánto tiempo pasará solo el animalito adoptado?</label>
+                                                  </div>
+                                                  <div class="input-field col s12 m12 l12">
+                                                      <i class="material-icons prefix">textsms</i>
+                                                      <input type="text" id="" class="validate">
+                                                      <label for="" class="white-text">¿Si el comportamiento del animalito no es el que usted desea (juguetón, mordelón, inquieto, mimado, rebelde), qué medidas tomaría?</label>
+                                                    </div>
+                                                    <div class="input-field col s12 m12 l12">
+                                                        <b><p class="white-text">Señale la cantidad que cree que se gasta en una mascota al mes</p> </b> <br>
+                                                        <p>  
+                                                              <label>
+                                                                <input type="checkbox" />
+                                                                <span class="white-text">20-30</span>
+                                                              </label>
+                                                            </p>
+                                                            <p>  
+                                                                <label>
+                                                                  <input type="checkbox" />
+                                                                  <span class="white-text">30-40</span>
+                                                                </label>
+                                                              </p>
+                                                              <p>  
+                                                                  <label>
+                                                                    <input type="checkbox" />
+                                                                    <span class="white-text">40-50</span>
+                                                                  </label>
+                                                                </p>
+                                                                <p>  
+                                                                    <label>
+                                                                      <input type="checkbox" />
+                                                                      <span class="white-text">50-70</span>
+                                                                    </label>
+                                                                  </p>
+                                                            <p>
+                                                                <label>
+                                                                  <input type="checkbox"/>
+                                                                  <span class="white-text">Más de 70</span>
+                                                                </label>
+                                                              </p>
+                                                      </div>  
+                                                      <div class="input-field col s12 m12 l12">
+                                                          <i class="material-icons prefix">textsms</i>
+                                                          <input type="text" id="auocomplte-input" class="validate" required>
+                                                          <label for="" class="white-text">¿Quién será el responsable y se hará cargo de cubrir los gastos del adoptado?</label>
+                                                        </div>
+                                                        <div class="input-field col s12 m12 l12">
+                                                        <center><b><h6 class="white-text">Señale los cuidados que Usted y su familia estarían dispuestos a darle al adoptado:</h6></b></center>
+                                                        </div>
+
+                                                        <div class="input-field col s4 m4 l4">
+                                                          <p class="white-text">Visitas periódicas al veterinario:</p>
+                                                            <div class="switch">
+                                                                <label class="white-text">
+                                                                  No
+                                                                  <input type="checkbox">
+                                                                  <span class="lever"></span>
+                                                                 Si
+                                                                </label>
+                                                              </div>
+                                                        </div>
+                                                        <div class="input-field col s4 m4 l4">
+                                                            <p class="white-text">Vacunación y vitaminas:</p>
+                                                              <div class="switch">
+                                                                  <label class="white-text">
+                                                                    No
+                                                                    <input type="checkbox">
+                                                                    <span class="lever"></span>
+                                                                   Si
+                                                                  </label>
+                                                                </div>
+                                                          </div>
+                                                          <div class="input-field col s4 m4 l4">
+                                                              <p class="white-text">Paseos con correa para perro:</p>
+                                                                <div class="switch">
+                                                                    <label class="white-text">
+                                                                      No
+                                                                      <input type="checkbox">
+                                                                      <span class="lever"></span>
+                                                                    Si
+                                                                    </label>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="input-field col s4 m4 l4">
+                                                                <p class="white-text">Uso de collar con placa de identificación:</p>
+                                                                  <div class="switch">
+                                                                      <label class="white-text">
+                                                                       No
+                                                                        <input type="checkbox">
+                                                                        <span class="lever"></span>
+                                                                       Si
+                                                                      </label>
+                                                                    </div>
+                                                              </div>
+                                                              <div class="input-field col s4 m4 l4">
+                                                                  <p class="white-text">Plato con agua limpia todos los días:</p>
+                                                                    <div class="switch">
+                                                                        <label class="white-text">
+                                                                          No
+                                                                          <input type="checkbox">
+                                                                          <span class="lever"></span>
+                                                                         Si
+                                                                        </label>
+                                                                      </div>
+                                                                </div>
+
+                                                                <div class="input-field col s4 m4 l4">
+                                                                    <p class="white-text">Desparasitación:</p>
+                                                                      <div class="switch">
+                                                                          <label class="white-text">
+                                                                            No
+                                                                            <input type="checkbox">
+                                                                            <span class="lever"></span>
+                                                                           Si
+                                                                          </label>
+                                                                        </div>
+                                                                  </div>
+
+                                                                  <div class="input-field col s4 m4 l4">
+                                                                      <p class="white-text">Cepillado de pelo:</p>
+                                                                        <div class="switch">
+                                                                            <label class="white-text">
+                                                                              No
+                                                                              <input type="checkbox">
+                                                                              <span class="lever"></span>
+                                                                             Si
+                                                                            </label>
+                                                                          </div>
+                                                                    </div>
+
+                                                                    <div class="input-field col s4 m4 l4">
+                                                                        <p class="white-text">Limpieza diaria de arenero de gatito:</p>
+                                                                          <div class="switch">
+                                                                              <label class="white-text">
+                                                                                No
+                                                                                <input type="checkbox">
+                                                                                <span class="lever"></span>
+                                                                               Si
+                                                                              </label>
+                                                                            </div>
+                                                                      </div>
+
+                                                                      <div class="input-field col s4 m4 l4">
+                                                                          <p class="white-text">Alimentación solo con croquetas:</p>
+                                                                            <div class="switch">
+                                                                                <label class="white-text">
+                                                                                  No
+                                                                                  <input type="checkbox">
+                                                                                  <span class="lever"></span>
+                                                                                 Si
+                                                                                </label>
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="input-field col s12 m12 l12">
+                                                                            <b><p class="white-text">¿Cuenta con los recursos para cubrir los gastos veterinarios del animal de compañía?</p> </b> <br>
+                                                                            <p>  
+                                                                                  <label class="white-text">
+                                                                                    <input type="checkbox" />
+                                                                                    <span>Si</span>
+                                                                                  </label>
+                                                                                </p>
+                                                                                <p>
+                                                                                    <label class="white-text">
+                                                                                      <input type="checkbox"/>
+                                                                                      <span>No</span>
+                                                                                    </label>
+                                                                                  </p>
+                                                                          </div>  
+                                                                          <div class="input-field col s12 m12 l12">
+                                                                              <b><p class="white-text">¿Asume el compromiso de esterilizar al adoptado una vez que tenga la edad suficiente?</p> </b> <br>
+                                                                              <p>  
+                                                                                    <label class="white-text">
+                                                                                      <input type="checkbox"/>
+                                                                                      <span>Si</span>
+                                                                                    </label>
+                                                                                  </p>
+                                                                                  <p>
+                                                                                      <label class="white-text">
+                                                                                        <input type="checkbox"/>
+                                                                                        <span>No</span>
+                                                                                      </label>
+                                                                                    </p>
+                                                                            </div>  
+                                                                            <div class="input-field col s12 m12 l12">
+                                                                                <i class="material-icons prefix">textsms</i>
+                                                                                <input type="text" id="" class="validate" required>
+                                                                                <label for="" class="white-text">¿Por qué?</label>
+                                                                              </div>
+
+ </div>
+  
+ <div>
+    <center><button class="btn waves-effect  blue accent-1 " type="submit">Adoptar</button></center>
+  </div>
+
+</div>
+<br>
+</form>
+    </div>
+
+
+
+
+
+
+
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       <script>
+           document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems);
+  });
+       </script>
+       <script>
+           document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+  });
+       </script>
+       
+<script>
+ 
+</script>
+
+    <script src="js/jquery-3.1.1.min.js"></script>    
+    <script src="js/main.js"></script>
+</body>
+</html>

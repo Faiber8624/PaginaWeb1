@@ -1,0 +1,56 @@
+.card{
+
+	border-radius: 15px;
+}
+
+.card-image{
+
+	border-radius: 15px;
+}
+
+.uno{
+
+	font-family: Century Gothic;
+	font-size: 18px;
+}
+
+.dos{
+
+	border-radius: 40px;
+}
+
+.nav-wrapper{
+	background-color: #4db6ac;
+	font-family: Century Gothic;
+}
+
+.page-footer{
+    background-color: #4db6ac;
+	font-family: Century Gothic;
+}
+
+.btn{
+ background-color: #4db6ac;
+}
+
+.jojoba{
+	font-family: Century Gothic;
+}
+
+.loquita{
+	font-size: 22px;
+}
+
+.bebe{
+	font-size: 18px;
+}
+
+.cositas{
+
+	margin-right: 70px; 
+	margin-left: 70px;
+}
+
+.nene{
+	font-size: 16.2px;
+}

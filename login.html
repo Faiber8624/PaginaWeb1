@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ingresar</title>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link  rel="icon" href="img/loggo.png" type="image/png">
+
+</head>
+
+<body>
+
+    <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo" style="padding-left: 400px">SaludHogar</a> 
+      <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">SaludHogar</a></li>
+        <li><a href="adopta.html">Tus necesisdades</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">¿Quienes somos?</a></li>
+        <li><a href="Informacion.html">PetFriend-Info</a></li>
+       <li><a href="login.html">Ingresar</a></li>
+      </ul>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">SaludHogar</a></li>
+        <li><a href="adopta.html">Tus necesisdades</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">¿Quienes somos?</a></li>
+        <li><a href="Informacion.html">PetFriend-Info</a></li>
+        <li><a href="login.html">Ingresar</a></li>
+  </ul>
+
+
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span> Crear Cuenta</span>
+        </div>
+        
+        <div class="formulario">
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+        
+        <div class="formulario">
+            <h2>Crea tu Cuenta</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuario" required>
+                
+                <input type="password" placeholder="Contraseña" required>
+                
+                <input type="email" placeholder="Correo Electronico" required>
+                
+                <input type="text" placeholder="Teléfono" required>
+                
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+        <div class="reset-password">
+            <a href="#">¿Olvide mi Contraseña?</a>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+</script>
+
+<script src="js/jquery-3.1.1.min.js"></script>    
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bebecito.png);
+    background-attachment: fixed;
+    font-family: Century Gothic;
+}
+
+.card-panel{
+    background-color: rgba(0, 0, 0, .3)
+}
+
+.imput-field{
+    font-family: Century Gothic;
+}
+
+option{
+    font-family: Century Gothic;
+}
+
+.input-field{
+    font-family: Century Gothic;
+}
+
+.btn{
+    background-color: #04ff14;
+}
+
